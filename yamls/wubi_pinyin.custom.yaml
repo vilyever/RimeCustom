@@ -1,0 +1,5 @@
+patch:
+  schema:
+    name: "拼音五笔"
+  'punctuator/import_preset': symbol_chinese
+  'recognizer/patterns/punct': "^/([a-z]+|[0-9])$"

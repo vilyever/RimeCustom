@@ -1,0 +1,4 @@
+patch:
+  schema:
+    name: "五笔"
+  'punctuator/import_preset': symbol_western

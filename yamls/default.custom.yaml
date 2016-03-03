@@ -1,0 +1,26 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.9.30
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Thu Mar 03 20:44:21 2016"
+  rime_version: 1.1.2
+patch:
+  "menu/page_size": 9
+  style/horizontal: true
+  "switcher/hotkeys": # 输入中切换设定CTRL+`
+    - "Control+grave"  
+  ascii_composer:
+    good_old_caps_lock: true
+    switch_key:
+      Shift_L: inline_ascii
+      Shift_R: commit_code
+      Control_L: noop
+      Control_R: noop
+      Caps_Lock: clear
+      Eisu_toggle: clear
+  app_options/winkawaks.exe: # 特定程式不使用输入法
+    ascii_mode: true
+  schema_list:
+    - {schema: wubi86}
+    - {schema: wubi_pinyin}
+    - {schema: emoji}
